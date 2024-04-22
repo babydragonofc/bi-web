@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>BunnyIsland</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="bunnylogores.png">
+
+
+<body>
+
+        <nav class="navbar">
+                <!-- LOGO -->
+                <a href="login.html">
+                    <div class="logo">
+                        <img src="bunnylogo.png" height="50px" width="85px">
+                    </div>
+                </a>
+                <!-- NAVIGATION MENU -->
+                <ul class="nav-links">
+                <!-- NAVIGATION MENUS -->
+                <div class="menu">
+                <li><a href="new.html">NOTICIAS</a></li>
+                <li class="services">
+                <a href="contatos.html">REDES</a>
+                <!-- DROPDOWN MENU -->
+                <ul class="dropdown">
+                <li><a href="https://twitter.com/Babydragon_ofc">twitter </a></li>
+                <li><a href="https://discord.gg/HjFeYbyDq3">discord </a></li>
+                </ul>
+                </li>
+                <li><a href="conta.html">CONTA</a></li>
+                <li><a href="jogar.html">JOGAR</a></li>
+                </div>
+                </ul>
+        </nav>
+<br>
+        <a class="back" href="conta.html"><img src="back botton.png" height="25" width="20"></a>
+
+        <div class="centroLogin">
+           <h2>Bem Vindo de Volta!</h2> 
+           <div class="form2">
+            <form action="http://localhost:3000/login" method="post"><br>
+                    E-mail<br>
+           <input class="texto" type="email" name="email" placeholder="   E-mail"required>
+            <br><br>
+                    Senha <br>
+           <input class="texto" type="password" name="senha" placeholder="  Senha" minlength="8" required><br/>
+            <br><br>
+            
+                <input class="loginbot" type="submit" value="Logar">
+            <br><br>
+            <a class="esqueceusenha" href="recuperarsenha.html">Esqueceu a Senha?</a>
+                <a class="nt">Não tem uma conta ainda? </a>
+                <br>
+            <a class="na" href="newacont.html">Criar Conta</a>
+        </div>
+        </div>
+</body>
